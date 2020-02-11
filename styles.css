@@ -43,6 +43,10 @@ h1{
     color: #4a4a4a;
 }
     
+.menu p a {
+    text-decoration: none;
+}
+
 .principal-style {
     height: 80vh;
     display: flex;
