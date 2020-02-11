@@ -1,3 +1,17 @@
 *{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: blue;
 }
+
+body{
+    margin: 0;
+}
+
+.main-body{
+    height: 80%;
+}
+/*font-family: 'Rubik', sans-serif;
+#4a4a4a  color menu text
+#3CDBC0 color backg page
+#FFFFFF color text main*/
