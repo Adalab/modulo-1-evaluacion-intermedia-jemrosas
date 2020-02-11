@@ -1,17 +1,55 @@
 *{
-    height: 100vh;
     box-sizing: border-box;
-    background-color: blue;
 }
 
 body{
+    margin: 0px;
+    top: 0%;
+}
+
+h1{
     margin: 0;
 }
 
-.main-body{
-    height: 80%;
+.header-style{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
 }
-/*font-family: 'Rubik', sans-serif;
-#4a4a4a  color menu text
-#3CDBC0 color backg page
-#FFFFFF color text main*/
+
+.logo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    height: auto;
+    text-align: center;
+  }
+  
+.logo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+  }
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 16px "Rubik", sans-serif;
+    color: #4a4a4a;
+}
+    
+.principal-style {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 30px "Rubik", sans-serif;
+    background-color: #3CDBC0}
+}
